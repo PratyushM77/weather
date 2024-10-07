@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(54, 53, 53);
+}
+#input-city{
+    position: relative;
+    top: 0%;
+    left: 6%;
+    height: 25px;
+    width:200px ;
+    border: 1px solid rgb(29, 8, 220);
+    border-radius: 10px;
+    padding-left:10px ;
+}
+#heading{
+    position: relative;
+    top: -2%;
+    left: 6%;
+    color: white;
+}
+#search{
+    height: 30px;
+    width:80px;
+    border: 1px solid rgb(29, 8, 220);
+    border-radius: 10px;
+    position: relative;
+    top: 0%;
+    left: 6%;
+}
+.hawa{
+    position: relative;
+    top: 67%;
+    left: 53%;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.humidity{
+    position: absolute;
+    top: 89%;
+    left: 6%;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+#container{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+   height: 500px;
+   width: 320px;
+    border: 1px solid black;
+    background:linear-gradient(150deg,#4E65FF,#92EFFD) ;
+    border-radius: 14px;
+}
+#city{
+    position: absolute;
+    top: 58%;
+    left: 27%;
+    right: 60%;
+    font-size: 34px;
+    color: white;
+    padding-right: 0px;
+    width: 10vw;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   
+}
+#temp{
+    position: absolute;
+    top: 48%;
+    left: 35%;
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    font-weight: 700;
+}
+#wind{
+    position: absolute;
+    top: 83%;
+    left: 60%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+#humidity{
+    position: absolute;
+    top: 83%;
+    left: 15%;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+#weatherwa{
+    position: absolute;
+    top: 25%;
+    font-size: 30px;
+    height: 120px;
+    left: 32%;
+    width: 120px;
+}
+#blow{
+    position: absolute;
+    height: 30px;
+    top: 71%;
+    left:60%;
+    height: 50px;
+    width: 80px;
+    opacity: .9;
+}
+#nami{
+ 
+  position: absolute;
+  height: 30px;
+  top: 73%;
+  left:14%;
+  height: 40px;
+  width: 40px;
+  opacity: .9;
+}
